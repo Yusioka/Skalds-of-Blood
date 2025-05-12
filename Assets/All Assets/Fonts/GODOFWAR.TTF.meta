@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b6121103cc28223498f8dcf9aa8af54d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GodOfWar
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 16589cbcb93088f47aab199334146597, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

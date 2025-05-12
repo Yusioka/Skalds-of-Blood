@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4844632953451199504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6807377688476447912}
+  - component: {fileID: 5938715747137508448}
+  - component: {fileID: 7384083122478935995}
+  - component: {fileID: 3855303964579686928}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6807377688476447912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844632953451199504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.041386, y: -1.3777461, z: 14.744314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5938715747137508448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844632953451199504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40434a09400bb4042b07a9e48ddfa0d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progression: {fileID: 0}
+  _player: {fileID: 0}
+  _enemyPrefabs:
+  - {fileID: 7945843100666258792, guid: f54a792261d39a347b8d0f17475037ff, type: 3}
+  - {fileID: 1318197171099624209, guid: be2bc5588ea1f4d4cb4da5856faa6c03, type: 3}
+  - {fileID: 149986387598937906, guid: abb8c3f0187cbca4284900113f7ad28c, type: 3}
+  _spawnPoints: []
+  _levelText: {fileID: 0}
+  _loseText: {fileID: 0}
+  _winText: {fileID: 0}
+  _menuButton: {fileID: 0}
+  _exitButton: {fileID: 0}
+  _backgroundAudio: {fileID: 0}
+  _levelCompleteAudio: {fileID: 0}
+  _winAudio: {fileID: 0}
+  _loseAudio: {fileID: 0}
+  _healthPowerUpPrefab: {fileID: 0}
+  _powerUpSpawnPoints: []
+--- !u!114 &7384083122478935995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844632953451199504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebfb025a4a60a5449b75f34a311f7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  _ranger: {fileID: 0}
+  _soldier: {fileID: 0}
+  _tanker: {fileID: 0}
+--- !u!114 &3855303964579686928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844632953451199504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14478dcac14b23d4287e655187797bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bonusConfigs:
+  - TraitType: 0
+    StatType: 0
+    Multiplier: 2
+  - TraitType: 1
+    StatType: 1
+    Multiplier: 1
+  - TraitType: 2
+    StatType: 3
+    Multiplier: 1
+  - TraitType: 3
+    StatType: 4
+    Multiplier: 1
